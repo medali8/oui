@@ -1,0 +1,81 @@
+
+#LoginSignup p{
+    margin-left : 0%;
+    font-size : 1.875rem ;
+    color : #136989 ;
+    font-weight: 600;
+    text-align: center; 
+}
+#LoginSignup a{
+    text-decoration: none ;
+    color : #136989 ;
+    
+}
+#LoginSignup img{
+    border-radius: 40px 40px 40px 40px ;
+    height: auto;
+    width : auto ;
+    height : 19.375rem ;   
+}
+#LoginSignup span {
+    color : #136989 ;
+}
+#LoginSignup .about2{
+    color :#136989;
+    font-weight :400;
+    font-size: 30px;
+}
+#LoginSignup form label{
+    font-weight: 600;
+}
+#LoginSignup form input[type="email"],#LoginSignup form input[type="password"],#LoginSignup form input[type="text"],#LoginSignup form input[type="number"]{
+    background-color: #D9D9D9;
+    width : 60%;
+    height: 34px;
+    border-radius: 50px;
+    border : 0px;
+}
+#LoginSignup form a{
+    color : #136989;
+    font-size: 18px;
+}
+
+#LoginSignup form .rco{
+    text-decoration: underline;
+}
+#LoginSignup form input[type="submit"]{
+    border-radius: 20px 20px 20px 20px ;
+    background-color: #1B96C4;
+    width : 60% ;
+    height : 34px;
+    border : 0px ;
+    color : white ;
+
+}
+#LoginSignup button{
+    width : 70%;
+    border-radius: 50px;
+    border : 1px solid #1B96C4;
+}
+#LoginSignup button img{
+    width : 36px ;
+    height : 36px ;
+}
+#LoginSignup button .inscr{
+    font-size : 20px;
+}
+
+@media (max-width:1174px) {
+    #LoginSignup p{
+        font-size:calc(1vw + 1rem);
+    }
+    
+    
+
+}
+@media only screen and (max-width: 870px ) and (min-width: 400px){
+    #LoginSignup img{
+         width : 0px;
+         height : 0px ;
+    }
+}
